@@ -16,6 +16,10 @@ The model was trained using a dataset of soil and environmental parameters. The 
 
 Other models like Logistic Regression and Multinomial Naive Bayes performed reasonably but with slightly lower accuracy. Random Forest is currently recommended for deployment.
 
+The following **Multiclass ROC Curve (One-vs-Rest)** shows the performance of our Random Forest model across all 22 crop classes. Each class achieves an AUC of 1.00, indicating **perfect separability**:
+
+![Multiclass ROC Curve](roc_curve.png)
+
 
 ## **🎯 Purpose**
 
